@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#head_top {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/home-hero.jpg);
+  background-size: cover;
+}
+#head_top .row > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+#head_top .row > section {
+  width: 100%;
+  height: 200px;
+}
+#head_top .row > section > .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  flex-direction: column;
+  margin: 0px auto;
+  border-top: 4px solid rgb(41, 125, 243);
+  background: rgba(0, 0, 0, 0.366);
+  position: relative;
+}
+#head_top .row > section > .row > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  width: 250px;
+  height: 50px;
+  background: rgb(255, 0, 174);
+  position: absolute;
+  bottom: -25px;
+  transition: 1s;
+}
+#head_top .row > section > .row > a:hover {
+  background: rgb(70, 0, 65);
+}
+#head_top .row > section > .row > h1 {
+  font-size: 3em;
+  color: white;
+}
+#head_top .row > figure {
+  width: 100%;
+  height: 500px;
+}
+#head_top .row > figure > img {
+  width: 100%;
+  height: 100%;
+}
+#head_top .row > header {
+  width: 100%;
+  height: 200px;
+  padding: 10px 10px;
+}
+#head_top .row > header .row {
+  width: 100%;
+  height: 100%;
+}
+#head_top .row > header .row > figure {
+  width: 40%;
+  height: 80%;
+}
+#head_top .row > header .row > nav {
+  width: 30%;
+  position: relative;
+}
+#head_top .row > header .row > nav:nth-of-type(2) > .row > li {
+  margin-left: 20px;
+}
+#head_top .row > header .row > nav > .row {
+  height: 100%;
+}
+#head_top .row > header .row > nav > .row > li {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+#head_top .row > header .row > nav > .row > li > a {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 40%;
+  font-size: 15px;
+  color: azure;
+  position: relative;
+}
+#head_top .row > header .row > nav > .row > li > a:hover {
+  color: rgb(255, 0, 174);
+}
+#head_top .row > header .row > nav > .row > li > a:hover > i {
+  color: rgb(255, 0, 174);
+}
+#head_top .row > header .row > nav > .row > li > a:hover::after {
+  width: 110%;
+  left: 0;
+}
+#head_top .row > header .row > nav > .row > li > a::after {
+  position: absolute;
+  content: "";
+  display: flex;
+  width: 0;
+  height: 6px;
+  background: rgb(255, 0, 174);
+  bottom: 0;
+  left: 50%;
+  transition: 0.5s;
+}
+
+.welcom {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/cloud-background.jpg);
+  background-size: cover;
+  padding-bottom: 200px;
+}
+.welcom .row {
+  justify-content: center;
+  align-items: center;
+}
+.welcom .row .row {
+  margin-top: 150px;
+  flex-direction: column;
+  width: 70%;
+  height: 300px;
+  height: auto;
+}
+.welcom .row .row > span {
+  font-size: 1.5em;
+  color: rgb(84, 162, 254);
+  text-transform: uppercase;
+}
+.welcom .row .row > h2 {
+  font-size: 4em;
+  color: white;
+  margin: 30px 0;
+}
+.welcom .row .row > p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+}
+.welcom .row > section {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  min-height: 100vh;
+}
+.welcom .row > section > figure {
+  position: relative;
+  width: 50%;
+  height: 500px;
+  overflow: hidden;
+}
+.welcom .row > section > figure > img {
+  transition: 1s;
+  width: 100%;
+  height: 100%;
+}
+.welcom .row > section > figure > img:hover {
+  width: 110%;
+  height: 110%;
+}
+.welcom .row > section .row {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.welcom .row > section .row > div {
+  display: flex;
+  width: 65%;
+  height: 2px;
+  background: rgb(46, 242, 1);
+}
+.welcom .row > section .row > p {
+  color: white;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.box {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid rgb(26, 26, 2);
+}
+.box > .row {
+  width: 100%;
+  height: 100%;
+}
+.box > .row > figure:nth-of-type(1) {
+  border-top: 8px solid rgb(255, 0, 247);
+}
+.box > .row > figure:nth-of-type(2) {
+  border-top: 8px solid rgb(0, 98, 255);
+}
+.box > .row > figure {
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.box > .row > figure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.603);
+}
+.box > .row > figure > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box > .row > figure > .txt {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 1;
+}
+.box > .row > figure > .txt > p:nth-of-type(1) {
+  font-size: 20px;
+  color: rgb(212, 65, 114);
+  text-transform: uppercase;
+}
+.box > .row > figure > .txt > h2 {
+  font-size: 4em;
+  color: white;
+  margin: 30px 0;
+}
+.box > .row > figure > .txt > a {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  background: rgb(253, 0, 206);
+  transition: 0.5s;
+}
+.box > .row > figure > .txt > a:hover {
+  box-shadow: 0 0 5px white;
+}
+
+.gallery {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../img/background-new.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery > .row {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  min-height: 100vh;
+  margin: 300px 0;
+}
+.gallery > .row > .p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 200px;
+}
+.gallery > .row > .p > p {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 0, 217);
+}
+.gallery > .row > .p > h3 {
+  font-size: 4em;
+  color: white;
+}
+.gallery > .row > .row {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+.gallery > .row > .row > div {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 1s;
+}
+.gallery > .row > .row > div:hover {
+  border: 1px solid white;
+}
+.gallery > .row > .row > div > figure {
+  overflow: hidden;
+  width: 100%;
+  height: 60%;
+}
+.gallery > .row > .row > div > figure > img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+.gallery > .row > .row > div > figure > img:hover {
+  width: 110%;
+  height: 110%;
+}
+.gallery > .row > .row > div > figcaption {
+  padding-left: 20px;
+  line-height: 30px;
+}
+.gallery > .row > .row > div > figcaption > a {
+  font-size: 2em;
+  color: rgb(255, 0, 247);
+}
+.gallery > .row > .row > div > figcaption > p {
+  color: white;
+}
+.gallery > .row .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.gallery > .row .btn > a {
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  width: 200px;
+  height: 60px;
+  background: rgb(255, 15, 139);
+}
+.gallery > .row .btn > a:hover {
+  background: rgb(197, 36, 63);
+}
+
+.box3 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/vip-hero-new.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box3 > .row {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}
+.box3 > .row > .a {
+  padding: 0 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+}
+.box3 > .row > .a > p {
+  font-size: 25px;
+  color: rgb(83, 156, 251);
+}
+.box3 > .row > .a > h5 {
+  font-size: 4em;
+  color: white;
+}
+.box3 > .row > .b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 80%;
+}
+.box3 > .row > .b > a {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  height: 70px;
+  background: rgb(249, 39, 74);
+  display: flex;
+}
+.box3 > .row > .b > a:hover {
+  background: rgb(118, 1, 40);
+}
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/avada-nightclub-footer-background-final-2.jpg);
+  background-size: cover;
+  background-position-y: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > .row {
+  width: 90%;
+  height: 90%;
+}
+footer > .row > .row:nth-of-type(1) {
+  width: 100%;
+  height: 30%;
+}
+footer > .row > .row:nth-of-type(1) > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  flex-grow: 1;
+}
+footer > .row > .row:nth-of-type(1) > div > p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer > .row > .row:nth-of-type(2) {
+  width: 100%;
+  height: 70%;
+  justify-content: space-between;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  width: 60%;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) > section {
+  height: 100%;
+  padding-top: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) > section > p {
+  color: gray;
+  line-height: 30px;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) > section > .icon {
+  font-size: 18px;
+  margin-top: 40px;
+  color: white;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) > section > .icon > i {
+  transition: 0.5s;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(1) > section > .icon > i:hover {
+  color: gray;
+  font-size: 14px;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(2) {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(2) > figure {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+footer > .row > .row:nth-of-type(2) > div:nth-of-type(2) > figure > img:hover {
+  width: 110%;
+  height: 110%;
+}/*# sourceMappingURL=master.css.map */
